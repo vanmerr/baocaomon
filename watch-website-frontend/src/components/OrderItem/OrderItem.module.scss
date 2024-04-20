@@ -1,0 +1,98 @@
+.container {
+    border-radius: 1rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 70rem;
+    height: 15rem;
+    margin: 1rem 0;
+    box-shadow:
+        6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+
+    .listProduct {
+        margin-left: 1rem;
+        position: relative;
+        width: 60rem;
+        height: 20rem;
+        display: flex;
+        align-items: center;
+        overflow-x: auto;
+        white-space: nowrap;
+        z-index: 8888;
+
+        .itemProduct {
+            display: flex;
+            align-items: center;
+            position: relative;
+            border: 1px solid #252525;
+            width: 26rem;
+            height: 10rem;
+            margin-right: 1rem;
+            box-shadow:
+                6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+
+            .image {
+                width: 10rem;
+                height: 10rem;
+                margin-right: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: 90%;
+                    height: 90%;
+                }
+            }
+
+            .name {
+                width: 12rem;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                margin-right: 1rem;
+                font-size: 1.2rem;
+            }
+
+            .price {
+                width: 6rem;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                color: red;
+                font-size: 1.6rem;
+            }
+        }
+    }
+
+    .cancel,
+    .failed,
+    .completed {
+        margin-left: 2rem;
+        width: 6rem;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        background-color: red;
+        border-radius: 1rem;
+
+        span {
+            font-size: 1.4rem;
+            color: white;
+        }
+    }
+
+    .failed{
+        background-color: unset;
+        color: #252525;
+    }
+
+    .completed{
+        background-color: unset;
+        color: green;
+    }
+}

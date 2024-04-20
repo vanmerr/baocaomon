@@ -1,0 +1,89 @@
+// Search.module.scss
+.search-result {
+    width: 100%;
+    position: absolute;
+    top: calc(100% + 10px); // Cách header 10px
+    left: 0;
+    z-index: 999;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+
+    // Phần styling cho kết quả tìm kiếm
+    // Thay đổi theo nhu cầu
+}
+
+.search {
+    position: relative;
+    height: 4rem;
+    border-radius: var(--seach-boder-radius);
+    background-color: var(--primary-background-color);
+    display: flex;
+    align-items: center;
+    width: 350px;
+    border: 1.5px solid transparent;
+    box-shadow:
+            6px 6px 12px #c5c5c5,
+            -6px -6px 12px #ffffff;
+
+    &::after {
+        width: 1px;
+        content: '';
+        position: absolute;
+        height: 70%;
+        right: var(--space-seach);
+        top: 50%;
+        transform: translate(0, -50%);
+        background-color: #bbb9b9;
+    }
+
+    .search-input-wrapper {
+        flex: 1;
+        position: relative;
+        display: flex;
+        align-items: center;
+
+        input {
+            width: 100%;
+            padding-left: 1.5rem;
+            font-size: 1.6rem;
+            color: var(--primary-text);
+            background-color: transparent;
+            caret-color: var(--primary-color);
+
+            &:not(:placeholder-shown) ~ .clean-btn {
+                display: block;
+            }
+        }
+
+        .clean-btn {
+            position: absolute;
+            right: 10px;
+            color: var(--primary-text);
+            cursor: pointer;
+            display: none;
+
+            &:hover {
+                color: var(--primary-color);
+            }
+        }
+    }
+
+    .search-btn {
+        width: var(--space-seach);
+        height: 100%;
+        border-top-right-radius: var(--seach-boder-radius);
+        border-bottom-right-radius: var(--seach-boder-radius);
+        cursor: pointer;
+        color: var(--primary-text);
+        font-size: 2rem;
+
+        &:hover {
+            background-color: #e6e6e6;
+        }
+    }
+
+    &:focus-within {
+        border-color: var(--primary-color);
+    }
+}

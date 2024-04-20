@@ -1,0 +1,74 @@
+[{
+  "_id": {
+    "$oid": "6618e73d3e2677b1776fb31e"
+  },
+  "fullName": "Nguyễn Văn Mơ",
+  "avartarURL": "http://localhost:5050/images/1713354393937.png",
+  "phoneNumber": "0886460385",
+  "email": "teo020403@gmail.com",
+  "password": "$2b$10$k6LsMdiPCYLQyUfW1PSY3.Qzi3arqiilRFea/q5r9ur0AYiL64ttG",
+  "address": "Hồ Chí Minh",
+  "isAdmin": true,
+  "createdAt": {
+    "$date": "2024-04-12T07:48:13.948Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T11:46:33.963Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66212519abcd5e6c16b35921"
+  },
+  "fullName": "MrTèo",
+  "avartarURL": "http://localhost:5050/images/avartar.png",
+  "phoneNumber": "0582298172",
+  "email": "mrteo@gmail.com",
+  "password": "$2b$10$EeGnWMlFWNMDuoHl21L0EOh4WOCkXReqvOTkDpl3oXeUbu8yopWPS",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-04-18T13:50:17.285Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T13:50:17.285Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622238bb493baba65dac01e"
+  },
+  "fullName": "TTí",
+  "avartarURL": "http://localhost:5050/images/avartar.png",
+  "phoneNumber": "0582298174",
+  "email": "mrteo2@gmail.com",
+  "password": "$2b$10$sbnCBRUkkJuFgE0f5NEOLuPbZw8fbvpfUEB1/.S1JKIGXeuugsYBa",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-04-19T07:55:55.564Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T07:56:12.380Z"
+  },
+  "__v": 0,
+  "address": "Hồ Chí Minh"
+},
+{
+  "_id": {
+    "$oid": "662224b9b493baba65dae8c2"
+  },
+  "fullName": "Mr Tuy",
+  "avartarURL": "http://localhost:5050/images/avartar.png",
+  "phoneNumber": "0348988833",
+  "email": "ewe020403@gmail.com",
+  "password": "$2b$10$Hkshu/R5mpRQ2jmhWGDxs.viRoPckMh/fT4YBLnhPG.sjHeaDtpwC",
+  "isAdmin": false,
+  "createdAt": {
+    "$date": "2024-04-19T08:00:57.854Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T08:00:57.854Z"
+  },
+  "__v": 0
+}]

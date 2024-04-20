@@ -1,0 +1,94 @@
+.navbar {
+    position: relative;
+}
+.menuButton {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 13%;
+    color: #090909;
+    width: 30px;
+    height: 30px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all 0.3s;
+    box-shadow:
+        6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+}
+
+.menuButton:hover {
+    border: 1px solid var(--primary-color);
+}
+
+.menuButton:hover span {
+    background: var(--primary-color);
+}
+
+.menuButton:active {
+    color: #666;
+    box-shadow:
+        inset 4px 4px 12px #c5c5c5,
+        inset -4px -4px 12px #ffffff;
+}
+
+input[type='checkbox'] {
+    -webkit-appearance: none;
+    display: none;
+    visibility: hidden;
+}
+
+.menuButton span {
+    width: 20px;
+    height: 3px;
+    background: var(--primary-text);
+    border-radius: 100px;
+    transition: 0.3s ease;
+}
+
+input[type]:checked ~ span.top {
+    transform: translateY(220%) rotate(45deg);
+    width: 20px;
+}
+
+input[type]:checked ~ span.bot {
+    transform: translateY(-220%) rotate(-45deg);
+    width: 20px;
+    box-shadow: 0 0 10px #495057;
+}
+
+input[type]:checked ~ span.mid {
+    transform: translateX(-20px);
+    opacity: 0;
+}
+
+.navbar-menu {
+    position: absolute;
+    top: 40px;
+    width: 200px;
+    display: none;
+}
+
+.is-active {
+    display: block; // Hiển thị menu khi có class is-active
+}
+
+.navbar-item {
+    display: block;
+    width: 100%; // Mỗi mục menu chiếm toàn bộ chiều rộng của navbar
+    padding: 10px 20px; // Khoảng cách nội dung với viền của mỗi mục menu
+    text-align: center; // Canh giữa nội dung
+    text-decoration: none; // Loại bỏ đường gạch chân
+    color: #090909; // Màu chữ
+    background-color: #e8e8e8; // Màu nền
+    border-bottom: 1px solid #dcdcdc; // Đường viền dưới cho mỗi mục menu
+    transition: background-color 0.3s; // Hiệu ứng chuyển đổi màu nền
+}
+
+.navbar-item:hover {
+    background-color: var(--primary-color);
+    color: white;
+}

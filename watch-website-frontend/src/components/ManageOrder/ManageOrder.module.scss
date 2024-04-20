@@ -1,0 +1,26 @@
+.container {
+    width: 100%;
+    height: 100%;
+
+    .content {
+        width: 100%;
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 80%;
+
+        .orders{
+            width: 80%;
+            height: 80%;
+            overflow-y: auto;
+        }
+    }
+}

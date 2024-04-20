@@ -1,0 +1,156 @@
+[{
+  "_id": {
+    "$oid": "66218a6607171a69aa8178cb"
+  },
+  "name": "Đồng hồ thông minh trẻ em Myalo KidsPhone K84",
+  "brand": "Cartier",
+  "price": 132,
+  "imageURL": "http://localhost:5050/images/1713506828546.jpg",
+  "category": "Smartwatch",
+  "description": "Đồng hồ thông minh trẻ em Myalo KidsPhone K84 là thiết bị giúp các bậc phụ huynh dễ dàng liên lạc, theo dõi và bảo vệ con từ xa, đồng thời còn là phương tiện giúp trẻ học tập và giải trí hàng ngày. Bên cạnh đó, chiếc smartwatch này còn sở hữu màn hình rộng 1.3 inches với đường viền nổi hạn chế va đập cho mặt kính và camera trước. Ngoài ra, còn được trang bị công nghệ 4G và hệ điều hành Android giúp nghe gọi, chat bằng tin nhắn thoại một cách dễ dàng.",
+  "quantity": 1342,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66218ac507171a69aa81ac5e"
+  },
+  "name": "Đồng hồ thông minh Z40 4G LTE 1.6 inch 6GB+128GB camera kép chống Nước IP67 Màn hình TFT Android, hỗ trợ theo dõi huyết áp / oxy trong máu",
+  "brand": "Audemars Piguet",
+  "price": 242,
+  "imageURL": "http://localhost:5050/images/1713474245629.jpg",
+  "category": "Smartwatch",
+  "description": "Đồng hồ thông minh Z40 4G LTE 1.6 inch 6GB+128GB camera kép chống Nước IP67 Màn hình TFT Android, hỗ trợ theo dõi huyết áp / oxy trong máu",
+  "quantity": 434,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66218b2107171a69aa81dd32"
+  },
+  "name": "ĐỒNG HỒ ROLEX OYSTER PERPETUAL DATEJUST 41MM",
+  "brand": "Rolex",
+  "price": 442,
+  "imageURL": "http://localhost:5050/images/product.jpg",
+  "category": "Watch",
+  "description": "Rolex Datejust vẫn là dòng sản phẩm thu hút đông đảo sự chú ý của khách hàng trên toàn thế giới. Trong công nghệ chế tác đồng hồ, vàng mang tính chất sang trọng, quý phái, thường được sử dụng cho những chiếc đồng hồ thiết kế cổ điển còn thép mang đặc tính bền bỉ với độ chống chịu áp lực cao, dành cho những mẫu có tính chất trẻ trung, hiện đại. Nhận ra những đặc điểm này, ngay từ những năm 1930, Rolex đã kết hợp hai chất liệu vàng và thép tạo thành những mẫu đồng hồ sang trọng. Rolex Datejust 41mm 126334 là một chiếc đồng hồ như vậy.",
+  "quantity": 339,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66218b9907171a69aa8213f1"
+  },
+  "name": "Đồng hồ Jaeger LeCoultre Master Calendar Q151242A",
+  "brand": "Audemars Piguet",
+  "price": 345,
+  "imageURL": "http://localhost:5050/images/1713474457475.jpg",
+  "category": "Smartwatch",
+  "description": "Đồng hồ Jaeger LeCoultre Master Calendar Q151242A",
+  "quantity": 426,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66218be007171a69aa8232b4"
+  },
+  "name": "Đồng hồ treo tường mỏ neo F02 - Vati",
+  "brand": "Cartier",
+  "price": 456,
+  "imageURL": "http://localhost:5050/images/1713474528793.jpg",
+  "category": "Wall Clock",
+  "description": "34tĐồng hồ treo tường mỏ neo F02 - Vati",
+  "quantity": 3455,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66218c0707171a69aa824256"
+  },
+  "name": "Đồng hồ treo tường trang trí DHV07",
+  "brand": "Cartier",
+  "price": 353,
+  "imageURL": "http://localhost:5050/images/1713474567231.jpg",
+  "category": "Wall Clock",
+  "description": "Đồng hồ treo tường trang trí DHV07",
+  "quantity": 3455,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66218cae07171a69aa828ce7"
+  },
+  "name": "Đồng hồ Hublot Classic Fusion JJF Titanium Grey - Tổng kho đồng hồ Replica , đồng hồ chế tác ,",
+  "brand": "Audemars Piguet",
+  "price": 3434,
+  "imageURL": "http://localhost:5050/images/1713474734333.jpg",
+  "category": "Smartwatch",
+  "description": "Đồng hồ Hublot Classic Fusion JJF Titanium Grey - Tổng kho đồng hồ Replica , đồng hồ chế tác ,",
+  "quantity": 438,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66218d0207171a69aa82b0ed"
+  },
+  "name": "Đồng hồ Hublot Classic Fusion JJF Titanium Grey - Tổng kho đồng hồ Replica , đồng hồ chế tác ,",
+  "brand": "Jaeger-LeCoultre",
+  "price": 435,
+  "imageURL": "http://localhost:5050/images/1713474818260.jpg",
+  "category": "Wall Clock",
+  "description": "Đồng hồ Hublot Classic Fusion JJF Titanium Grey - Tổng kho đồng hồ Replica , đồng hồ chế tác ,",
+  "quantity": 34561,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66218d9007171a69aa82e304"
+  },
+  "name": "Đồng hồ Timex T2N161 mặt số thể thao với 6 kim, Chronograph",
+  "brand": "Patek Philippe",
+  "price": 546,
+  "imageURL": "http://localhost:5050/images/1713507023066.jpg",
+  "category": "Wall Clock",
+  "description": "Đồng hồ Timex T2N161 mặt số thể thao với 6 kim, Chronograph",
+  "quantity": 4235,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66218df907171a69aa82f2dc"
+  },
+  "name": "Đồng hồ Calvin Klein K7A231C3 Nữ 38mm, Quartz (Pin), Thép không gỉ",
+  "brand": "Calvin Klein",
+  "price": 42,
+  "imageURL": "http://localhost:5050/images/1713475065271.jpg",
+  "category": "Smartwatch",
+  "description": "Đồng hồ Calvin Klein K7A231C3 Nữ 38mm, Quartz (Pin), Thép không gỉ",
+  "quantity": 23234,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66218e4307171a69aa83153e"
+  },
+  "name": "Đồng Hồ Đôi Calvin Klein K3M51T5N/K3M52T5N Chính Hãng",
+  "brand": "Calvin Klein",
+  "price": 335,
+  "imageURL": "http://localhost:5050/images/1713475139860.jpg",
+  "category": "Watch",
+  "description": "Đồng Hồ Đôi Calvin Klein K3M51T5N/K3M52T5N Chính Hãng",
+  "quantity": 433,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66218e7e07171a69aa8327c0"
+  },
+  "name": "Top 5 đồng hồ Calvin Klein nam giá rẻ khẳng định đẳng cấp của phái mạnh",
+  "brand": "Audemars Piguet",
+  "price": 345,
+  "imageURL": "http://localhost:5050/images/1713475198162.jpg",
+  "category": "Smartwatch",
+  "description": "Top 5 đồng hồ Calvin Klein nam giá rẻ khẳng định đẳng cấp của phái mạnh",
+  "quantity": 345,
+  "__v": 0
+}]

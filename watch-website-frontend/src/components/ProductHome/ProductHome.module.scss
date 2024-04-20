@@ -1,0 +1,43 @@
+.text {
+    background-color: rgb(237, 236, 236);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: var(--primary-color);
+    font-weight: 600;
+    height: 60px;
+    margin-top: 20px;
+    box-shadow:
+        6px 6px 12px #c5c5c5,
+        -6px -6px 12px #ffffff;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    padding: 20px 50px 50px 50px;
+}
+
+.wapper {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+
+        @media (min-width: 768px) {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        @media (min-width: 1024px) {
+            grid-template-columns: repeat(6, 1fr);
+        }
+    }
+}

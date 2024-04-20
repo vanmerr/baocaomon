@@ -1,0 +1,22 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: rgb(60, 60, 60);
+    --primary-text : rgb(227, 227, 227);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--primary-color);
+    color: var(--primary-text);
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
